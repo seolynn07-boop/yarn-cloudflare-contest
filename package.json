@@ -1,0 +1,13 @@
+{
+	"name": "yarn-cloudflare-contest",
+	"private": true,
+	"scripts": {
+		"db:local": "wrangler d1 migrations apply DB --local",
+		"dev": "wrangler dev --ip 127.0.0.1 --port 8789",
+		"test": "node test_dictionary.cjs && node test_evidence.cjs",
+		"test:integration": "node test_worker.cjs"
+	},
+	"devDependencies": {
+		"wrangler": "4.164.0"
+	}
+}

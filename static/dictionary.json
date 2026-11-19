@@ -1,0 +1,560 @@
+[
+  {
+    "term": "API",
+    "aliases": "application programming interface",
+    "meaning": "A set of ways one program can ask another program for information or an action.",
+    "comparison": "Like a restaurant menu: it tells you what you can ask for and how to order it."
+  },
+  {
+    "term": "API key",
+    "aliases": "key credential",
+    "meaning": "A private code used to identify an app when it calls a service. It can let someone use your account or allowance.",
+    "comparison": "Like a keycard charged to your room: keep it private and replace it if it leaks."
+  },
+  {
+    "term": "Argument",
+    "aliases": "parameter flag option",
+    "meaning": "Extra information given to a command or function to tell it what to do.",
+    "comparison": "Like adding “no ice” to a drink order. In --port 8768, 8768 is the value for the port option."
+  },
+  {
+    "term": "Authentication",
+    "aliases": "auth sign in login",
+    "meaning": "Checking who someone is, often through a password or sign-in service.",
+    "comparison": "Like showing your ID at the entrance."
+  },
+  {
+    "term": "Authorization",
+    "aliases": "permission access control",
+    "meaning": "Checking what an identified person is allowed to see or do.",
+    "comparison": "Like your ticket deciding which rooms you may enter after your ID is checked."
+  },
+  {
+    "term": "Backend",
+    "aliases": "server side",
+    "meaning": "The part of an app that handles work such as checking access and saving records, usually away from the screen you see.",
+    "comparison": "Like a restaurant kitchen: the dining area sends orders to it."
+  },
+  {
+    "term": "Backup",
+    "aliases": "restore recovery",
+    "meaning": "A separate saved copy you can use if something goes wrong.",
+    "comparison": "Like keeping a spare copy of an important document somewhere safe."
+  },
+  {
+    "term": "Branch",
+    "aliases": "git branch",
+    "meaning": "A separate line of changes in a code project, so work can happen before it is combined with the main version.",
+    "comparison": "Like drafting an alternate chapter without changing the published book."
+  },
+  {
+    "term": "Browser",
+    "aliases": "chrome edge safari firefox",
+    "meaning": "The app you use to open websites.",
+    "comparison": "Like a window into a website. Chrome and Edge are browsers; YARN is the app shown inside one."
+  },
+  {
+    "term": "Bug",
+    "aliases": "defect broken",
+    "meaning": "A mistake that makes software behave differently from what was intended.",
+    "comparison": "Like a vending machine giving the wrong drink after you press the right button."
+  },
+  {
+    "term": "Build",
+    "aliases": "compile compilation",
+    "meaning": "Preparing source code and other files into a form ready to run or publish.",
+    "comparison": "Like turning ingredients and a recipe into a packed meal."
+  },
+  {
+    "term": "Cache",
+    "aliases": "cached caching",
+    "meaning": "A saved shortcut copy of data used to make later requests faster. It can sometimes be out of date.",
+    "comparison": "Like keeping a frequently used page on your desk instead of fetching the whole book again."
+  },
+  {
+    "term": "CLI",
+    "aliases": "command line interface",
+    "meaning": "A way to use a program by typing commands instead of clicking buttons.",
+    "comparison": "Like giving a written instruction to a helper. The terminal is the window; a CLI is the program you talk to in it."
+  },
+  {
+    "term": "Client",
+    "aliases": "client side",
+    "meaning": "The program or device asking another program for something. A browser is often a client.",
+    "comparison": "Like a customer placing an order with a shop."
+  },
+  {
+    "term": "Clone",
+    "aliases": "git clone",
+    "meaning": "Make a local copy of a Git repository, including its version history.",
+    "comparison": "Like copying a project notebook along with its earlier revisions."
+  },
+  {
+    "term": "Code",
+    "aliases": "source code",
+    "meaning": "Written instructions that tell a computer what to do.",
+    "comparison": "Like a recipe, but written in a language a computer can follow."
+  },
+  {
+    "term": "Codex",
+    "aliases": "coding agent coding AI",
+    "meaning": "The coding AI you work with to inspect, write, and change code.",
+    "comparison": "Like a coding helper: you still need to check that the result does what you wanted."
+  },
+  {
+    "term": "Command",
+    "aliases": "run command",
+    "meaning": "An instruction you type for your computer to carry out.",
+    "comparison": "Like a written task: python server.py tells Python to run the file server.py."
+  },
+  {
+    "term": "Commit",
+    "aliases": "git commit",
+    "meaning": "A recorded set of changes in Git, usually with a short note explaining it.",
+    "comparison": "Like a named checkpoint you can compare with earlier checkpoints. It does not automatically publish the app."
+  },
+  {
+    "term": "Configuration",
+    "aliases": "config settings",
+    "meaning": "Settings that tell a program how to behave in a particular setup.",
+    "comparison": "Like choosing the temperature and cycle on a washing machine."
+  },
+  {
+    "term": "Console",
+    "aliases": "console window command prompt cmd powershell terminal devtools",
+    "meaning": "A text area where you can see program messages and sometimes type instructions. A console window often means Command Prompt, PowerShell, or a terminal. A browser console is a different place inside browser developer tools.",
+    "comparison": "Like a conversation window with your computer. If told to “keep the console open,” leave that command window running."
+  },
+  {
+    "term": "CORS",
+    "aliases": "cross origin resource sharing",
+    "meaning": "Browser rules controlled by server responses that decide whether a page can read responses from a different origin.",
+    "comparison": "Like permission to receive a reply from another building. It does not replace checking who may access the data."
+  },
+  {
+    "term": "Credential",
+    "aliases": "credentials password token secret",
+    "meaning": "Information used to prove identity or gain access, such as a password, API key, or login token.",
+    "comparison": "Like keys and ID cards: avoid putting them in a public file or screenshot."
+  },
+  {
+    "term": "CSS",
+    "aliases": "stylesheet styling",
+    "meaning": "Code that controls a web page’s appearance, such as colors, spacing, and layout.",
+    "comparison": "Like the clothes and interior design of a page."
+  },
+  {
+    "term": "Database",
+    "aliases": "db records storage",
+    "meaning": "An organized place where an app stores and finds information.",
+    "comparison": "Like a filing cabinet with a system for finding and updating each record."
+  },
+  {
+    "term": "Debug",
+    "aliases": "debugging troubleshoot",
+    "meaning": "Investigate why something is wrong and work out how to fix it.",
+    "comparison": "Like tracing which step in a recipe made the cake sink."
+  },
+  {
+    "term": "Dependency",
+    "aliases": "dependencies package library",
+    "meaning": "Code from another project that your app relies on.",
+    "comparison": "Like a ready-made ingredient: useful, but its quality and version matter too."
+  },
+  {
+    "term": "Deploy",
+    "aliases": "deployment publish",
+    "meaning": "Put a version of an app into the environment where people will use it.",
+    "comparison": "Like opening a finished shop to visitors. Saving code alone does not deploy it."
+  },
+  {
+    "term": "Directory",
+    "aliases": "folder directories",
+    "meaning": "A folder that holds files or other folders.",
+    "comparison": "Like a drawer in a filing cabinet. “Open the project directory” means open its folder."
+  },
+  {
+    "term": "Domain",
+    "aliases": "domain name hostname",
+    "meaning": "A readable name used to find a website or service, such as example.com.",
+    "comparison": "Like a shop’s street address written in words instead of the map coordinates."
+  },
+  {
+    "term": "Endpoint",
+    "aliases": "route api endpoint",
+    "meaning": "A particular address and request method that an app responds to.",
+    "comparison": "Like a specific service counter: one handles sign-in, another handles messages."
+  },
+  {
+    "term": "Environment",
+    "aliases": "env runtime environment",
+    "meaning": "The surroundings in which software runs: its machine, settings, and installed tools.",
+    "comparison": "Like a kitchen: the same recipe may work differently if the equipment or ingredients change."
+  },
+  {
+    "term": "Environment variable",
+    "aliases": "env var .env dotenv",
+    "meaning": "A named setting supplied to a running program. Some hold secrets. A .env file is one common way to load them.",
+    "comparison": "Like a labeled note handed to the cook. A note containing a password must stay private."
+  },
+  {
+    "term": "Error",
+    "aliases": "exception failure",
+    "meaning": "A message or condition saying a task could not finish as expected.",
+    "comparison": "Like a warning light: copy the exact message so the cause can be investigated."
+  },
+  {
+    "term": "Exit code",
+    "aliases": "return code process exit",
+    "meaning": "A number a program returns when it finishes. Zero usually means success; other numbers need the program’s explanation.",
+    "comparison": "Like a delivery receipt: it tells you how the task ended."
+  },
+  {
+    "term": "Fixture",
+    "aliases": "fixtures test data synthetic",
+    "meaning": "Prepared example files or data used for repeatable tests or demonstrations.",
+    "comparison": "Like a practice patient in a training exercise. YARN’s judge fixtures are fictional, not your real app’s data."
+  },
+  {
+    "term": "Framework",
+    "aliases": "react next django flask",
+    "meaning": "A set of tools and rules that provides a starting structure for an app.",
+    "comparison": "Like a house frame: you build your rooms inside its structure."
+  },
+  {
+    "term": "Frontend",
+    "aliases": "front end UI user interface",
+    "meaning": "The visible, interactive part of an app: pages, buttons, forms, and screens.",
+    "comparison": "Like a restaurant’s dining area, where customers interact with the service."
+  },
+  {
+    "term": "Function",
+    "aliases": "method routine",
+    "meaning": "A named piece of code that performs a task when called.",
+    "comparison": "Like a reusable recipe step named “make sauce.”"
+  },
+  {
+    "term": "Git",
+    "aliases": "version control",
+    "meaning": "A tool that records code changes so you can compare versions and work on separate branches.",
+    "comparison": "Like a detailed project history with checkpoints."
+  },
+  {
+    "term": "GitHub",
+    "aliases": "repository hosting remote",
+    "meaning": "A service where people can store Git projects online and collaborate.",
+    "comparison": "Like an online shared shelf for project histories. Git is the tracking tool; GitHub is one place to host them."
+  },
+  {
+    "term": "HTML",
+    "aliases": "markup",
+    "meaning": "The code describing a web page’s content and structure.",
+    "comparison": "Like the page’s skeleton: headings, paragraphs, forms, and buttons."
+  },
+  {
+    "term": "HTTP",
+    "aliases": "HTTPS request protocol",
+    "meaning": "The rules browsers and servers use to exchange web requests and replies. HTTPS protects the connection with encryption.",
+    "comparison": "Like a delivery system; HTTPS uses a sealed, protected route. It does not guarantee the website itself is trustworthy."
+  },
+  {
+    "term": "Install",
+    "aliases": "installation setup",
+    "meaning": "Put a program or package on a computer so it can be used.",
+    "comparison": "Like adding a tool to your toolbox. Downloading a ZIP does not always install its contents."
+  },
+  {
+    "term": "JSON",
+    "aliases": "json file",
+    "meaning": "A text format for storing structured information using named fields, lists, and values.",
+    "comparison": "Like a neatly labeled form that programs can read. Its punctuation must follow strict rules."
+  },
+  {
+    "term": "Library",
+    "aliases": "software library",
+    "meaning": "Reusable code that other code can call. In another context, “Library” may mean your saved files.",
+    "comparison": "Like a shelf of ready-made tools, rather than building each tool yourself."
+  },
+  {
+    "term": "Local",
+    "aliases": "locally local machine",
+    "meaning": "Running or stored on the computer you are using, rather than on a remote computer.",
+    "comparison": "Like keeping a document on your own desk. A local app may still contact outside services if enabled."
+  },
+  {
+    "term": "Localhost",
+    "aliases": "127.0.0.1 loopback",
+    "meaning": "An address pointing back to the same computer that opens it.",
+    "comparison": "Like saying “this house.” A localhost link on your laptop does not open your laptop’s app on someone else’s phone."
+  },
+  {
+    "term": "Lockfile",
+    "aliases": "package-lock yarn.lock pinned versions",
+    "meaning": "A file recording the dependency versions resolved by a package manager.",
+    "comparison": "Like an exact shopping receipt, helping another setup use the same ingredients."
+  },
+  {
+    "term": "Log",
+    "aliases": "logs logging output",
+    "meaning": "A record of messages about what a program has done or what went wrong.",
+    "comparison": "Like a ship’s logbook. Logs can contain private information, so review them before sharing."
+  },
+  {
+    "term": "Merge",
+    "aliases": "git merge combine",
+    "meaning": "Combine changes from one code branch into another.",
+    "comparison": "Like combining edits from two drafts. Conflicting edits may need a person to decide what to keep."
+  },
+  {
+    "term": "Migration",
+    "aliases": "database migration schema change",
+    "meaning": "A planned change to a database’s structure or stored data.",
+    "comparison": "Like reorganizing a filing cabinet while making sure the old records still fit."
+  },
+  {
+    "term": "Mock",
+    "aliases": "mocked simulated stub",
+    "meaning": "A controlled stand-in for a real component during a test.",
+    "comparison": "Like a practice phone call with a colleague pretending to be a customer. Passing it does not prove the real service works."
+  },
+  {
+    "term": "Node.js",
+    "aliases": "node javascript runtime",
+    "meaning": "A program that lets JavaScript run outside a web page, such as on a local computer or server.",
+    "comparison": "Like a different stage where JavaScript can perform without a browser."
+  },
+  {
+    "term": "npm",
+    "aliases": "package manager node packages",
+    "meaning": "A tool commonly used to download and manage JavaScript packages and run project scripts.",
+    "comparison": "Like a supply clerk for project ingredients. Some install commands can also run scripts."
+  },
+  {
+    "term": "Offline",
+    "aliases": "no internet disconnected",
+    "meaning": "Working without an internet connection for that task.",
+    "comparison": "Like using a paper notebook. YARN’s judge checks work offline; opening an outside link still uses the internet."
+  },
+  {
+    "term": "Package",
+    "aliases": "module dependency",
+    "meaning": "A bundle of reusable code or tools that can be installed together.",
+    "comparison": "Like a boxed kit containing parts and instructions."
+  },
+  {
+    "term": "Patch",
+    "aliases": "diff code change",
+    "meaning": "A set of proposed or applied changes to files.",
+    "comparison": "Like tracked edits in a document. A patch still needs review and checking."
+  },
+  {
+    "term": "Path",
+    "aliases": "file path absolute relative",
+    "meaning": "The address of a file or folder on a computer. An absolute path starts from the drive or root; a relative path starts from your current folder.",
+    "comparison": "Like a full street address versus “the room next door.”"
+  },
+  {
+    "term": "Permission",
+    "aliases": "permissions access rights",
+    "meaning": "A rule deciding whether a person or program may do something, such as read a file or delete a message.",
+    "comparison": "Like a door pass that may allow entry but not rearranging the room."
+  },
+  {
+    "term": "Port",
+    "aliases": "port number 8768 address in use",
+    "meaning": "A numbered doorway used to reach a particular program on a computer.",
+    "comparison": "Like an apartment number after the building address. In 127.0.0.1:8768, 8768 is the port. “Already in use” means another program is using it."
+  },
+  {
+    "term": "Production",
+    "aliases": "prod live app",
+    "meaning": "The real app environment used by actual users.",
+    "comparison": "Like the restaurant during service. Changes here can affect real people and data."
+  },
+  {
+    "term": "Pull request",
+    "aliases": "PR code review",
+    "meaning": "A proposal to bring changes from one branch into another, often with a review first.",
+    "comparison": "Like asking someone to approve a revised chapter before it becomes part of the main book."
+  },
+  {
+    "term": "Push",
+    "aliases": "git push upload changes",
+    "meaning": "Send local Git commits to a remote Git repository.",
+    "comparison": "Like sending your saved draft to the shared shelf. This only publishes the app if a deployment process is set up to run afterward."
+  },
+  {
+    "term": "Python",
+    "aliases": "py python3 interpreter",
+    "meaning": "A programming language and the program that runs code written in that language.",
+    "comparison": "Like a language plus its reader. In py -3 server.py, the Windows Python launcher runs the Python file."
+  },
+  {
+    "term": "Refresh",
+    "aliases": "reload hard refresh",
+    "meaning": "Ask the browser to load the page again. A hard refresh also tries to bypass cached page files.",
+    "comparison": "Like asking for a fresh copy of a handout. It does not restart the server."
+  },
+  {
+    "term": "Repository",
+    "aliases": "repo codebase project",
+    "meaning": "A project’s files and, when tracked by Git, their change history.",
+    "comparison": "Like the whole project binder, not just one page of code."
+  },
+  {
+    "term": "Request",
+    "aliases": "response network call",
+    "meaning": "A message asking a program for data or an action. The answer is the response.",
+    "comparison": "Like sending an order and getting a reply saying what happened."
+  },
+  {
+    "term": "Restart",
+    "aliases": "stop start again reboot",
+    "meaning": "Stop a program, then start it again so it starts fresh. Some changes require this.",
+    "comparison": "Like closing and reopening a shop after changing its setup. Refreshing a browser page alone does not restart its server."
+  },
+  {
+    "term": "Rollback",
+    "aliases": "revert previous version",
+    "meaning": "Return to an earlier version after a problem. Database or external changes may need separate recovery.",
+    "comparison": "Like replacing a revised draft with an earlier copy; it does not automatically undo everything that happened afterward."
+  },
+  {
+    "term": "Root",
+    "aliases": "project root top level",
+    "meaning": "The main folder from which a project’s files are organized.",
+    "comparison": "Like the binder holding all the project’s sections. “Run from the project root” means open the command window in that folder."
+  },
+  {
+    "term": "Run",
+    "aliases": "execute execution",
+    "meaning": "Start following a program’s instructions.",
+    "comparison": "Like pressing play on a recording. Opening a script in Notepad only displays its text; it does not run it."
+  },
+  {
+    "term": "Runtime",
+    "aliases": "running process interpreter",
+    "meaning": "The software and conditions that let code run. “At runtime” means while the program is actually operating.",
+    "comparison": "Like the equipment and stage during a performance, rather than the written script."
+  },
+  {
+    "term": "SARIF",
+    "aliases": "security report format",
+    "meaning": "A structured file format that security tools can use to share findings.",
+    "comparison": "Like a common report form different inspectors can fill in. Importing it does not independently prove its claims."
+  },
+  {
+    "term": "Scan",
+    "aliases": "scanner security check",
+    "meaning": "Use a tool to examine specified files or behavior for particular signs of problems.",
+    "comparison": "Like an inspection with a checklist: items outside the checklist can still be unknown."
+  },
+  {
+    "term": "Script",
+    "aliases": ".py .ps1 .cmd .js",
+    "meaning": "A file of instructions run by another program or command shell.",
+    "comparison": "Like a to-do list for the computer. Its file ending helps identify which program should run it."
+  },
+  {
+    "term": "Secret",
+    "aliases": "secrets private key",
+    "meaning": "A sensitive value that must stay private, such as a password, access token, or signing key.",
+    "comparison": "Like a safe combination. Replacing it after a leak is called rotation."
+  },
+  {
+    "term": "Server",
+    "aliases": "server process local server",
+    "meaning": "A running program that receives requests and sends replies. It can run on your computer or another machine.",
+    "comparison": "Like a service desk. Closing YARN’s command window stops that local desk from answering."
+  },
+  {
+    "term": "Session",
+    "aliases": "login session",
+    "meaning": "A way an app remembers a user’s visit or signed-in state across requests.",
+    "comparison": "Like a temporary visitor pass after sign-in. It should expire or be revocable."
+  },
+  {
+    "term": "Source code",
+    "aliases": "source files implementation",
+    "meaning": "The human-readable instructions and supporting files used to build or run an app.",
+    "comparison": "Like the original recipe and preparation notes, rather than just the finished meal."
+  },
+  {
+    "term": "Staging",
+    "aliases": "test environment preview",
+    "meaning": "A separate environment used to try changes before they reach production.",
+    "comparison": "Like a dress rehearsal. Keep real secrets and personal data out unless that use is deliberately approved."
+  },
+  {
+    "term": "Static files",
+    "aliases": "assets images css javascript",
+    "meaning": "Files sent to the browser largely as stored, such as images, stylesheets, and JavaScript files.",
+    "comparison": "Like ready-printed handouts; the JavaScript inside can still make the page interactive."
+  },
+  {
+    "term": "Terminal",
+    "aliases": "shell command window powershell cmd console",
+    "meaning": "A window for interacting with text-based programs. A shell, such as PowerShell, reads the commands you type there.",
+    "comparison": "Like a front desk and interpreter together: the window shows the conversation, and the shell understands your instructions."
+  },
+  {
+    "term": "Test",
+    "aliases": "unit test integration test smoke test",
+    "meaning": "A repeatable check comparing what software does with what you expect. A smoke test is a quick check of the main flow.",
+    "comparison": "Like trying the lights before opening a shop. Passing a few checks does not prove every possible action works."
+  },
+  {
+    "term": "Token",
+    "aliases": "access token auth token AI token",
+    "meaning": "In sign-in, a value used to show access rights. In AI usage, a token is a small chunk of text used for processing and usage measurement.",
+    "comparison": "Like a visitor pass in security, or counted pieces of text in AI. The meaning depends on the sentence."
+  },
+  {
+    "term": "URL",
+    "aliases": "link web address",
+    "meaning": "The full address of a web resource, possibly including a protocol, host, port, and path.",
+    "comparison": "Like a full delivery address. http://127.0.0.1:8768/ points to the local demo’s doorway."
+  },
+  {
+    "term": "Validation",
+    "aliases": "validate verification",
+    "meaning": "Checking whether something meets specific rules or expectations.",
+    "comparison": "Like checking a form’s fields before accepting it. Valid format does not prove every claim inside is true."
+  },
+  {
+    "term": "Variable",
+    "aliases": "value identifier",
+    "meaning": "A named place in a program used to refer to a value.",
+    "comparison": "Like a labeled box whose contents the program can read or change."
+  },
+  {
+    "term": "Version",
+    "aliases": "release v1 v2",
+    "meaning": "A particular edition of a program or package.",
+    "comparison": "Like different editions of a textbook. Instructions for one edition may not work for another."
+  },
+  {
+    "term": "Virtual environment",
+    "aliases": "venv .venv python environment",
+    "meaning": "An isolated place for a Python project’s installed packages.",
+    "comparison": "Like a separate toolbox for each project, helping their tools avoid clashing."
+  },
+  {
+    "term": "Vulnerability",
+    "aliases": "security flaw exploitable",
+    "meaning": "A weakness that could let someone cause harm or gain access they should not have.",
+    "comparison": "Like a lock that can be bypassed. A warning or risky setting still needs evidence to establish the actual problem."
+  },
+  {
+    "term": "Webhook",
+    "aliases": "callback event notification",
+    "meaning": "An automatic request one service sends to another when a particular event happens.",
+    "comparison": "Like a doorbell announcing a delivery instead of you repeatedly checking the doorstep."
+  },
+  {
+    "term": "ZIP",
+    "aliases": "zip archive compress extract unzip",
+    "meaning": "A file that packs other files and folders together, often making them smaller. Extracting unpacks them.",
+    "comparison": "Like a suitcase: unpack the whole project before running it. Zipping is not the same as encrypting or hiding secrets."
+  }
+]

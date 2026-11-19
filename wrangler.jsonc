@@ -1,0 +1,16 @@
+{
+  "name": "yarn-contest",
+  "main": "src/worker.js",
+  "compatibility_date": "2026-10-01",
+  "send_metrics": false,
+  "assets": { "directory": "./static", "binding": "ASSETS" },
+  "d1_databases": [{
+    "binding": "DB",
+    "database_name": "yarn-contest",
+    "database_id": "00000000-0000-0000-0000-000000000000"
+  }],
+  "queues": {
+    "producers": [{ "binding": "RECHECKS", "queue": "yarn-contest-rechecks" }],
+    "consumers": [{ "queue": "yarn-contest-rechecks", "max_batch_timeout": 1, "max_retries": 3 }]
+  }
+}
