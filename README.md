@@ -41,4 +41,4 @@ The Worker accepts only the two named synthetic examples. Codex Security is unav
 
 The [hosted judge demo](https://yarn-contest-f5277659.seolynn07.workers.dev/) uses the dedicated Worker and D1 database `yarn-contest-f5277659` and the Queue `yarn-contest-f5277659-rechecks`. The hosted integration test passes for both bundled examples. The included Wrangler configuration uses a placeholder database ID for local development.
 
-[Download the 16-second product demo](https://github.com/seolynn07-boop/yarn-cloudflare-contest/releases/download/contest-demo/YARN-contest-demo.mp4).
+[Download the 19-second product demo](https://github.com/seolynn07-boop/yarn-cloudflare-contest/releases/download/contest-demo/YARN-contest-demo.mp4).
